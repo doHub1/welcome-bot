@@ -16,7 +16,7 @@ docker run --rm -itd -v /etc/localtime:/etc/localtime:ro -p 20080:20080 \
 -e HUBOT_SLACK_WELCOME_MESSAGE='XXX slackへようこそ！
 招待者の方はプロフ記入等のフォローお願いします。' \
 -e ANY_OTHER_ENV=write_here \
---name "devo" devo-image
+--name "welcome-bot" welcome-bot-image
 ```
 
 
